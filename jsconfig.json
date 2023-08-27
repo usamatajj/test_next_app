@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./*"]
-    }
-  }
+      "app": ["app/*"],
+      "tests": ["tests/*"],
+      "@components/*": ["app/components/*"]
+    },
+    "baseUrl": "."
+  },
+  "include": ["app", "app/**/*"]
 }
